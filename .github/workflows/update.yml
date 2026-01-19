@@ -42,7 +42,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add dist/index.html dist/feed.xml news.db
+        git add -f dist/index.html dist/feed.xml
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
