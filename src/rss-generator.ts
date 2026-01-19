@@ -55,8 +55,8 @@ export class RssGenerator {
     feed.item({
       title: `🔥 ${story.title}`,
       description,
-      url: story.techmemeUrl || story.hackernewsUrl,
-      guid: `cross-${story.id}`,
+      url: story.techmemeUrl || story.hackernewsUrl || '',
+      guid: `cross-${story.id || 'unknown'}`,
       date: story.firstSeen,
       categories: ['multi-source', 'tech-news']
     });
@@ -81,7 +81,7 @@ export class RssGenerator {
       title: headline.title,
       description,
       url: headline.url,
-      guid: `${headline.source}-${headline.id}`,
+      guid: `${headline.source}-${headline.id || 'unknown'}`,
       date: headline.timestamp,
       categories: [headline.source, 'tech-news']
     });

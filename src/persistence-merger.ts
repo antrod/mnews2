@@ -48,7 +48,7 @@ export class PersistenceMerger {
           contentHash: this.generateContentHash(scrapedHeadline.title, scrapedHeadline.url)
         };
 
-        this.db.insertHeadline(headline);
+        await this.db.insertHeadline(headline);
       }
       
       console.log(`✅ ${source.name}: ${headlines.length} headlines processed`);
@@ -60,7 +60,7 @@ export class PersistenceMerger {
   private async findCrossPlatformStories(): Promise<void> {
     console.log('🔍 Finding cross-platform stories...');
     
-    const recentHeadlines = this.db.getRecentHeadlines(12);
+    const recentHeadlines = await this.db.getRecentHeadlines(12);
     const groupedBySource = this.groupBySource(recentHeadlines);
     
     const matches: Array<{
@@ -134,7 +134,7 @@ export class PersistenceMerger {
           hackernewsHeadlineId: hackernewsHeadline?.id
         };
 
-        this.db.insertCrossPlatformStory(crossStory);
+        await this.db.insertCrossPlatformStory(crossStory);
       }
     }
   }
@@ -193,12 +193,12 @@ export class PersistenceMerger {
     return crypto.createHash('sha256').update(content).digest('hex');
   }
 
-  getCrossPlatformStories(): CrossPlatformStory[] {
-    return this.db.getCrossPlatformStories();
+  async getCrossPlatformStories(): Promise<CrossPlatformStory[]> {
+    return await this.db.getCrossPlatformStories();
   }
 
-  getRecentHeadlines(hours: number = 12): Headline[] {
-    return this.db.getRecentHeadlines(hours);
+  async getRecentHeadlines(hours: number = 12): Promise<Headline[]> {
+    return await this.db.getRecentHeadlines(hours);
   }
 
   close(): void {

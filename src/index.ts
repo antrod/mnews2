@@ -21,8 +21,8 @@ async function main(): Promise<void> {
     
     await merger.processAllSources();
     
-    const crossStories = merger.getCrossPlatformStories();
-    const allHeadlines = merger.getRecentHeadlines(12);
+    const crossStories = await merger.getCrossPlatformStories();
+    const allHeadlines = await merger.getRecentHeadlines(12);
     
     const crossStoryIds = new Set(crossStories.map(s => s.techmemeHeadlineId).filter(Boolean));
     const unmatchedHeadlines = allHeadlines.filter(h => !crossStoryIds.has(h.id));
@@ -47,7 +47,7 @@ async function main(): Promise<void> {
     console.log(chalk.green('✅ Generated index.html and feed.xml'));
     console.log(chalk.blue(`📁 Output directory: ${outputDir}`));
 
-    merger.close();
+    setTimeout(() => merger.close(), 1000);
     
     console.log(chalk.green.bold('🎉 News aggregation completed successfully!'));
   } catch (error) {

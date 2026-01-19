@@ -16,12 +16,13 @@ export class TechmemeScraper {
       const $ = cheerio.load(response.data);
       const headlines: ScrapedHeadline[] = [];
 
-      $('.items').find('a').each((index, element) => {
+      $('div.ii, div.itc').each((index, element) => {
         const $el = $(element);
-        const title = $el.text().trim();
-        const url = $el.attr('href');
+        const $titleLink = $el.find('a').first();
+        const title = $titleLink.text().trim();
+        const url = $titleLink.attr('href');
         
-        if (title && url && !url.startsWith('/')) {
+        if (title && url && url.startsWith('http')) {
           headlines.push({
             title,
             url,
