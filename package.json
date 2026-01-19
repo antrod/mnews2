@@ -1,0 +1,31 @@
+{
+  "name": "mnews2",
+  "version": "1.0.0",
+  "description": "Tech news aggregator that identifies cross-source stories",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["news", "aggregator", "tech", "hackernews", "techmeme"],
+  "author": "antrod",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "better-sqlite3": "^9.0.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "openai": "^4.0.0",
+    "rss": "^1.2.2",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^20.0.0",
+    "@types/string-similarity": "^4.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
