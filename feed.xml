@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 06 Sep 2026 23:31:11 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 06 Sep 2026 23:31:11 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[It took a year to ship WebAssembly in Anubis]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 102]]></description>
+            <link>https://anubis.techaro.lol/blog/2026/anubis-wasm/</link>
+            <guid isPermaLink="false">hackernews-40</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: the US and China will discuss AI safety risks during talks planned for mid-September, with Treasury Secretary Scott Bessent leading the US side]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/</link>
+            <guid isPermaLink="false">techmeme-20</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Here’s how much Apple is paying John Ternus as CEO, Tim Cook as executive chairman]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 14]]></description>
+            <link>https://9to5mac.com/2026/09/01/john-ternus-gets-58m-pay-package-as-ceo-tim-cook-47m-as-chairman/</link>
+            <guid isPermaLink="false">9to5mac-60</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AMD Based FreeBSD Desktop Reloaded]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 107]]></description>
+            <link>https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/</link>
+            <guid isPermaLink="false">hackernews-39</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft court filings: an expert hired by publishers found that only ~60K of 8.2M Copilot chat logs contained at least 16 words in common with news content]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IldwdFJmaGQ3OWciLCJwIjoiL3BvbGljeS85OTAyNjcvbWljcm9zb2Z0LW9wZW5haS1uZXcteW9yay10aW1lcy1hdXRob3JzLWxhd3N1aXQiLCJleHAiOjE3ODg5OTg5OTksImlhdCI6MTc4ODU2Njk5OX0.0W2E2SvJtcqIzc31d3Qg-xB0MnXWx7udT_Ny8bYC-QU&amp;utm_medium=gift-link</link>
+            <guid isPermaLink="false">techmeme-19</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[This new reveal suggests MacBook Ultra might cost more than we think]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 15]]></description>
+            <link>https://9to5mac.com/2026/09/05/macbook-ultra-pricing-lineup-rumor/</link>
+            <guid isPermaLink="false">9to5mac-59</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vancouver strip club's Instagram taken down over sign featuring lake joke]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 111]]></description>
+            <link>https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: US negotiators used the promise of access to Nvidia's chips for an Armenian data center to broker a preliminary Armenia-Azerbaijan peace deal last year]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.wsj.com/world/u-s-used-promise-of-nvidia-chips-to-broker-armenia-azerbaijan-peace-deal-b6c7cb6e?st=WcCKED</link>
+            <guid isPermaLink="false">techmeme-18</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apple Watch loses a useful multitasking feature in watchOS 27 that I’ve been missing]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 16]]></description>
+            <link>https://9to5mac.com/2026/09/03/apple-watch-loses-a-useful-multitasking-feature-in-watchos-27-that-ive-been-missing/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GrapheneOS Overhauled Default Apps and Secure Clipboard]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 130]]></description>
+            <link>https://grapheneos.social/@GrapheneOS/117225539756835649</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sun, 06 Sep 2026 23:31:10 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
