@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mnews2 - Tech News Aggregator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .stories {
+            list-style: none;
+        }
+        
+        .story {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .story:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .story-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .story-title a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .story-title a:hover {
+            color: #667eea;
+        }
+        
+        .story-summary {
+            color: #666;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .badge-multi {
+            background: #667eea;
+            color: white;
+        }
+        
+        .badge-hn {
+            background: #ffeee5;
+            color: #ff6600;
+        }
+        
+        .badge-techmeme {
+            background: #e5f2ff;
+            color: #007aff;
+        }
+        
+        .badge-9to5mac {
+            background: #f3e5ff;
+            color: #9c27b0;
+        }
+        
+        .comments-link {
+            font-size: 0.9rem;
+            color: #666;
+            text-decoration: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: #f0f0f0;
+        }
+        
+        .comments-link:hover {
+            background: #e0e0e0;
+            color: #333;
+        }
+        
+        .fire {
+            color: #ff6b35;
+            margin-right: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .feed-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .feed-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .story {
+                padding: 15px;
+            }
+            
+            .story-title {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>mnews2</h1>
+            <p class="subtitle">Cross-platform tech news aggregator</p>
+        </header>
+        
+        <main>
+            <ul class="stories">
+                
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/">A Misalignment of AI in Mathematics</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.tomsguide.com/phones/iphones/interview-apple-ceo-john-ternus-on-his-defining-moment-for-the-iphone-duo">An interview with Apple CEO John Ternus and Greg Joswiak on making the iPhone Duo, minimizing the crease, “half baked” Android foldables, the price, and more</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/09/10/how-to-fast-charge-iphone-18-pro/">How to fast charge iPhone 18 Pro</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (13)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://glacierextinction.com">Global Glacier Extinction Explorer</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/">Sources: in an internal Slack message Matt Mullenweg claims he is back in control of Automattic; on X, he says this may have been fifth coup attempt against him</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/09/10/iphone-airs-200-premium-disappears-when-you-trade-it-in/">iPhone Air’s $200 premium disappears when you trade it in</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (14)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://snap.berkeley.edu/">Λ Snap – An inviting programming language for kids and adults for CS study</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.theglobeandmail.com/business/article-canadian-ai-firm-cohere-in-advanced-talks-to-raise-up-to-3-billion/">Sources: Cohere is in advanced talks to raise between $2B and $3B, including financing from the Canadian government and existing backers, at a $20B valuation</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/09/09/heres-how-iphone-duo-treats-apps-not-optimized-for-the-foldable-display/">Here’s how iPhone Duo treats apps not optimized for the foldable display</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (15)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://eiln.github.io/posts/ane.html">Retrospectively Reverse-Engineering Apple's Neural Engine</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+            </ul>
+        </main>
+        
+        <footer>
+            <p>Updated 9/12/2026, 3:05:28 PM</p>
+            <p><a href="/feed.xml" class="feed-link">RSS Feed</a></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 12 Sep 2026 15:05:28 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[A Misalignment of AI in Mathematics]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 147]]></description>
+            <link>https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An interview with Apple CEO John Ternus and Greg Joswiak on making the iPhone Duo, minimizing the crease, “half baked” Android foldables, the price, and more]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.tomsguide.com/phones/iphones/interview-apple-ceo-john-ternus-on-his-defining-moment-for-the-iphone-duo</link>
+            <guid isPermaLink="false">techmeme-19</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to fast charge iPhone 18 Pro]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 13]]></description>
+            <link>https://9to5mac.com/2026/09/10/how-to-fast-charge-iphone-18-pro/</link>
+            <guid isPermaLink="false">9to5mac-59</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Global Glacier Extinction Explorer]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 155]]></description>
+            <link>https://glacierextinction.com</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: in an internal Slack message Matt Mullenweg claims he is back in control of Automattic; on X, he says this may have been fifth coup attempt against him]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/</link>
+            <guid isPermaLink="false">techmeme-18</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iPhone Air’s $200 premium disappears when you trade it in]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 14]]></description>
+            <link>https://9to5mac.com/2026/09/10/iphone-airs-200-premium-disappears-when-you-trade-it-in/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Λ Snap – An inviting programming language for kids and adults for CS study]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 155]]></description>
+            <link>https://snap.berkeley.edu/</link>
+            <guid isPermaLink="false">hackernews-36</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: Cohere is in advanced talks to raise between $2B and $3B, including financing from the Canadian government and existing backers, at a $20B valuation]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.theglobeandmail.com/business/article-canadian-ai-firm-cohere-in-advanced-talks-to-raise-up-to-3-billion/</link>
+            <guid isPermaLink="false">techmeme-17</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Here’s how iPhone Duo treats apps not optimized for the foldable display]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 15]]></description>
+            <link>https://9to5mac.com/2026/09/09/heres-how-iphone-duo-treats-apps-not-optimized-for-the-foldable-display/</link>
+            <guid isPermaLink="false">9to5mac-57</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Retrospectively Reverse-Engineering Apple's Neural Engine]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 158]]></description>
+            <link>https://eiln.github.io/posts/ane.html</link>
+            <guid isPermaLink="false">hackernews-35</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 12 Sep 2026 15:05:28 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
