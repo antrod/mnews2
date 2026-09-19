@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 19 Sep 2026 19:10:54 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 19 Sep 2026 19:10:54 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Gemini hacked three companies in first known breakout by Google's AI]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 70]]></description>
+            <link>https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/</link>
+            <guid isPermaLink="false">hackernews-40</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An arbitrator orders Uber to pay $40M to the parents of a woman fatally hit by a car after an Uber driver ordered her out of his car in 2023]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.nytimes.com/2026/09/18/business/uber-payment-woman-killed-freeway-california.html</link>
+            <guid isPermaLink="false">techmeme-20</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iOS 27.2 introduces Apple Health app overhaul, here’s what’s new]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 7]]></description>
+            <link>https://9to5mac.com/2026/09/16/ios-27-2-introduces-apple-health-app-overhaul-heres-whats-new/</link>
+            <guid isPermaLink="false">9to5mac-60</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Almost Never Use AI to Write Anything Substantive]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 74]]></description>
+            <link>https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai</link>
+            <guid isPermaLink="false">hackernews-39</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[US officials say overreliance on Palantir's Maven AI system was among the factors that contributed to a February missile strike in Iran that killed 123 children]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://bloomberg.com/graphics/2026-iran-school-attack/?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4OTc2NTUyNywiZXhwIjoxNzkwMzcwMzI3LCJhcnRpY2xlSWQiOiJUTEtWT01LR1pBSlgwMCIsImJjb25uZWN0SWQiOiJFQzUzMkU0NDM2OTc0ODRGOTJGOUY3MTdGQ0QzQUZBQiJ9.cevRBXkqlYKUN284O24VJs1DEdiK9NxSfe6mkcAyPEI</link>
+            <guid isPermaLink="false">techmeme-19</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Photographer Tyler Stalman reviews the iPhone 18 Pro’s new camera with variable aperture]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 7]]></description>
+            <link>https://9to5mac.com/2026/09/16/photographer-tyler-stalman-reviews-the-iphone-18-pros-new-camera-with-variable-aperture/</link>
+            <guid isPermaLink="false">9to5mac-59</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Flock Offers Employees Buyouts as Customers Flee]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 80]]></description>
+            <link>https://www.wired.com/story/flock-is-offering-voluntary-buyouts-to-employees/</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: ~$18B of debt tied to an Oracle New Mexico data center slid into stressed territory, as investors grow wary of construction delays amid local pushback]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.ft.com/content/bd441859-6c94-4874-894f-9362c1703127?accessToken=zwAAAaC2qpAgkdO9RBhZbJRIdNOJT5NiwXAxJw.MEQCIF2GTIvPrQR34CxTSrXFXdSTutroNevJwWZldjypgJhGAiBVh2FgXIfxQ4D1rsycWQoF21_k03vTrmHMfIOELh4uqA&amp;sharetype=gift&amp;token=214b5825-e6b7-4144-8700-e405b7354614&amp;syn-25a6b1a6=1</link>
+            <guid isPermaLink="false">techmeme-18</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apple Watch Series 12 and Ultra 4 review: More personal than ever before]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 7]]></description>
+            <link>https://9to5mac.com/2026/09/17/apple-watch-series-12-and-ultra-4-review/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A graphical desktop for the ZX Spectrum]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 111]]></description>
+            <link>https://github.com/mindbox77/zxdesk</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 19 Sep 2026 19:10:53 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
