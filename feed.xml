@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 03 Oct 2026 23:32:27 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 03 Oct 2026 23:32:27 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Show HN: Offrun – manage every coding agent from one workspace]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 72]]></description>
+            <link>https://offrun.dev/</link>
+            <guid isPermaLink="false">hackernews-33</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.pcmag.com/news/facing-memory-crunch-nvidia-creates-64gb-rtx-spark-it-still-costs-4999</link>
+            <guid isPermaLink="false">techmeme-13</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iOS 27 gives Apple Photos two features we’ve waited a long time for]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 8]]></description>
+            <link>https://9to5mac.com/2026/10/02/ios-27-gives-apple-photos-two-features-weve-waited-a-long-time-for/</link>
+            <guid isPermaLink="false">9to5mac-53</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GitHub's new dashboard experience now the default]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 73]]></description>
+            <link>https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/</link>
+            <guid isPermaLink="false">hackernews-32</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Amazon says it has stopped using NDAs with county officials for data center projects and acknowledges community backlash is leading to data center moratoriums]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.wired.com/story/amazon-says-it-is-going-to-stop-using-ndas-for-data-centers/</link>
+            <guid isPermaLink="false">techmeme-12</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apple TV just added a bunch of free classic movies, here’s everything new]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 9]]></description>
+            <link>https://9to5mac.com/2026/10/01/apple-tv-just-added-a-bunch-of-free-classic-movies-heres-everything-new/</link>
+            <guid isPermaLink="false">9to5mac-52</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[We want you to build the next Git platform on Cloudflare]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 92]]></description>
+            <link>https://blog.cloudflare.com/next-git-platform-on-cloudflare/</link>
+            <guid isPermaLink="false">hackernews-31</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Onsemi revises its Synaptics acquisition to a ~$5.7B all-cash offer, down from the ~$7B all-stock deal announced in June, after Synaptics received another bid]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.wsj.com/business/deals/on-semicondcutor-to-buy-synaptics-for-cash-not-stock-in-downsized-deal-d2781e36?st=pFKYnf&amp;reflink=desktopwebshare_permalink</link>
+            <guid isPermaLink="false">techmeme-11</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iPhone Duo can be just $9/month with trade-in using Apple Upgrade]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 9]]></description>
+            <link>https://9to5mac.com/2026/10/02/iphone-duo-can-be-just-9-month-with-trade-in-using-apple-upgrade/</link>
+            <guid isPermaLink="false">9to5mac-51</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pop!_OS bans AI-generated code from much of its codebase]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 94]]></description>
+            <link>https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/</link>
+            <guid isPermaLink="false">hackernews-30</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 03 Oct 2026 23:32:27 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
