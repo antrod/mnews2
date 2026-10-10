@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 10 Oct 2026 15:44:51 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 10 Oct 2026 15:44:51 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Clinical trial of a prion disease drug candidate begins enrolling participants]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 122]]></description>
+            <link>https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants</link>
+            <guid isPermaLink="false">hackernews-40</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: Ramp raised about $1.85B led by Dragoneer and Thrive Capital at a $60B pre-money valuation, up from $44B in June, when it raised $750M]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-10-09/ramp-hits-60-billion-valuation-in-1-85-billion-funding-round</link>
+            <guid isPermaLink="false">techmeme-20</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[‘Matchbox The Movie’ starring John Cena premieres on Apple TV]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 9]]></description>
+            <link>https://9to5mac.com/2026/10/08/matchbox-the-movie-starring-john-cena-premieres-on-apple-tv/</link>
+            <guid isPermaLink="false">9to5mac-60</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ideas aren't getting harder to find (2022)]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 132]]></description>
+            <link>https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find</link>
+            <guid isPermaLink="false">hackernews-39</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: as Google prepares to roll out its Gemini 4 Argon, staff are testing a new version internally named Carbon; one staffer says it “feels like Opus 5.5”]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10</link>
+            <guid isPermaLink="false">techmeme-19</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Redesigned MacBook Pro will reportedly include these three changes]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 10]]></description>
+            <link>https://9to5mac.com/2026/10/07/redesigned-macbook-pro-will-reportedly-include-these-three-changes/</link>
+            <guid isPermaLink="false">9to5mac-59</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A statement on the Tor Project's relationship with Mullvad]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 138]]></description>
+            <link>https://blog.torproject.org/on-tor-relationship-with-mullvad/</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: top execs at Anthropic, OpenAI, and others are gaming out scenarios for a public and political revolt following a catastrophic AI event]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack</link>
+            <guid isPermaLink="false">techmeme-18</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apple may have to pay an annual lump sum to the EU in a tax compromise]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 11]]></description>
+            <link>https://9to5mac.com/2026/10/07/apple-may-have-to-pay-an-annual-lump-sum-to-the-eu-in-a-tax-compromise/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Show HN: The rarest tech books and docs you've probably never read]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 151]]></description>
+            <link>https://readrare.com/</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 10 Oct 2026 15:44:50 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

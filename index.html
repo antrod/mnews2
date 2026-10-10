@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mnews2 - Tech News Aggregator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .stories {
+            list-style: none;
+        }
+        
+        .story {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .story:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .story-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .story-title a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .story-title a:hover {
+            color: #667eea;
+        }
+        
+        .story-summary {
+            color: #666;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .badge-multi {
+            background: #667eea;
+            color: white;
+        }
+        
+        .badge-hn {
+            background: #ffeee5;
+            color: #ff6600;
+        }
+        
+        .badge-techmeme {
+            background: #e5f2ff;
+            color: #007aff;
+        }
+        
+        .badge-9to5mac {
+            background: #f3e5ff;
+            color: #9c27b0;
+        }
+        
+        .comments-link {
+            font-size: 0.9rem;
+            color: #666;
+            text-decoration: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: #f0f0f0;
+        }
+        
+        .comments-link:hover {
+            background: #e0e0e0;
+            color: #333;
+        }
+        
+        .fire {
+            color: #ff6b35;
+            margin-right: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .feed-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .feed-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .story {
+                padding: 15px;
+            }
+            
+            .story-title {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>mnews2</h1>
+            <p class="subtitle">Cross-platform tech news aggregator</p>
+        </header>
+        
+        <main>
+            <ul class="stories">
+                
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants">Clinical trial of a prion disease drug candidate begins enrolling participants</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.bloomberg.com/news/articles/2026-10-09/ramp-hits-60-billion-valuation-in-1-85-billion-funding-round">Sources: Ramp raised about $1.85B led by Dragoneer and Thrive Capital at a $60B pre-money valuation, up from $44B in June, when it raised $750M</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/08/matchbox-the-movie-starring-john-cena-premieres-on-apple-tv/">‘Matchbox The Movie’ starring John Cena premieres on Apple TV</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (9)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find">Ideas aren't getting harder to find (2022)</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10">Sources: as Google prepares to roll out its Gemini 4 Argon, staff are testing a new version internally named Carbon; one staffer says it “feels like Opus 5.5”</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/07/redesigned-macbook-pro-will-reportedly-include-these-three-changes/">Redesigned MacBook Pro will reportedly include these three changes</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (10)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://blog.torproject.org/on-tor-relationship-with-mullvad/">A statement on the Tor Project's relationship with Mullvad</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack">Sources: top execs at Anthropic, OpenAI, and others are gaming out scenarios for a public and political revolt following a catastrophic AI event</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/07/apple-may-have-to-pay-an-annual-lump-sum-to-the-eu-in-a-tax-compromise/">Apple may have to pay an annual lump sum to the EU in a tax compromise</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (11)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://readrare.com/">Show HN: The rarest tech books and docs you've probably never read</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+            </ul>
+        </main>
+        
+        <footer>
+            <p>Updated 10/10/2026, 3:44:51 PM</p>
+            <p><a href="/feed.xml" class="feed-link">RSS Feed</a></p>
+        </footer>
+    </div>
+</body>
+</html>
