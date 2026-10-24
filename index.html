@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mnews2 - Tech News Aggregator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .stories {
+            list-style: none;
+        }
+        
+        .story {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .story:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .story-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .story-title a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .story-title a:hover {
+            color: #667eea;
+        }
+        
+        .story-summary {
+            color: #666;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .badge-multi {
+            background: #667eea;
+            color: white;
+        }
+        
+        .badge-hn {
+            background: #ffeee5;
+            color: #ff6600;
+        }
+        
+        .badge-techmeme {
+            background: #e5f2ff;
+            color: #007aff;
+        }
+        
+        .badge-9to5mac {
+            background: #f3e5ff;
+            color: #9c27b0;
+        }
+        
+        .comments-link {
+            font-size: 0.9rem;
+            color: #666;
+            text-decoration: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: #f0f0f0;
+        }
+        
+        .comments-link:hover {
+            background: #e0e0e0;
+            color: #333;
+        }
+        
+        .fire {
+            color: #ff6b35;
+            margin-right: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .feed-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .feed-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .story {
+                padding: 15px;
+            }
+            
+            .story-title {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>mnews2</h1>
+            <p class="subtitle">Cross-platform tech news aggregator</p>
+        </header>
+        
+        <main>
+            <ul class="stories">
+                
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://openai.com/index/securing-our-frontier-model-training-environment/">Securing our frontier model training environment</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.reuters.com/world/middle-east/iran-has-detailed-plans-hit-gulf-undersea-cables-if-war-resumes-officials-say-2026-10-23/">Iranian security officials say the country has detailed plans to target undersea communications cables in the Gulf if the US and Israel attack Iran again</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/23/my-experience-suggests-apple-glasses-will-only-be-for-existing-eyeglass-wearers/">My experience suggests Apple Glasses will only sell to existing eyeglasses wearers</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (11)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://corgi.computer/">Show HN: Corgi, a helpful {agent, terminal} multiplexer</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026">Global PC shipments fell 21% YoY in Q3 to 57M units, as memory and other costs pushed prices up; Lenovo retained its market leadership despite a 23% decline</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/22/first-iphone-duo-pre-orders-now-say-shipped-ahead-of-launch/">First iPhone Duo pre-orders now say ‘shipped’ ahead of launch</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (12)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://artificialanalysis.ai/models/kimi-k3-1-pro">Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.calcalistech.com/ctechnews/article/h1sq8ip2mx">Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/22/leaker-reveals-larger-iphone-duo-details-possible-telephoto-camera/">Leaker reveals larger iPhone Duo details, possible Telephoto camera</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (12)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.sciencedaily.com/releases/2026/10/261018084421.htm">Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+            </ul>
+        </main>
+        
+        <footer>
+            <p>Updated 10/24/2026, 5:52:22 PM</p>
+            <p><a href="/feed.xml" class="feed-link">RSS Feed</a></p>
+        </footer>
+    </div>
+</body>
+</html>

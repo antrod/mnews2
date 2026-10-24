@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 24 Oct 2026 17:52:22 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 24 Oct 2026 17:52:22 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Securing our frontier model training environment]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 113]]></description>
+            <link>https://openai.com/index/securing-our-frontier-model-training-environment/</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iranian security officials say the country has detailed plans to target undersea communications cables in the Gulf if the US and Israel attack Iran again]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.reuters.com/world/middle-east/iran-has-detailed-plans-hit-gulf-undersea-cables-if-war-resumes-officials-say-2026-10-23/</link>
+            <guid isPermaLink="false">techmeme-18</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[My experience suggests Apple Glasses will only sell to existing eyeglasses wearers]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 11]]></description>
+            <link>https://9to5mac.com/2026/10/23/my-experience-suggests-apple-glasses-will-only-be-for-existing-eyeglass-wearers/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Show HN: Corgi, a helpful {agent, terminal} multiplexer]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 118]]></description>
+            <link>https://corgi.computer/</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Global PC shipments fell 21% YoY in Q3 to 57M units, as memory and other costs pushed prices up; Lenovo retained its market leadership despite a 23% decline]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026</link>
+            <guid isPermaLink="false">techmeme-17</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[First iPhone Duo pre-orders now say ‘shipped’ ahead of launch]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 12]]></description>
+            <link>https://9to5mac.com/2026/10/22/first-iphone-duo-pre-orders-now-say-shipped-ahead-of-launch/</link>
+            <guid isPermaLink="false">9to5mac-57</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 119]]></description>
+            <link>https://artificialanalysis.ai/models/kimi-k3-1-pro</link>
+            <guid isPermaLink="false">hackernews-36</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.calcalistech.com/ctechnews/article/h1sq8ip2mx</link>
+            <guid isPermaLink="false">techmeme-16</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Leaker reveals larger iPhone Duo details, possible Telephoto camera]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 12]]></description>
+            <link>https://9to5mac.com/2026/10/22/leaker-reveals-larger-iphone-duo-details-possible-telephoto-camera/</link>
+            <guid isPermaLink="false">9to5mac-56</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 126]]></description>
+            <link>https://www.sciencedaily.com/releases/2026/10/261018084421.htm</link>
+            <guid isPermaLink="false">hackernews-35</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 24 Oct 2026 17:52:22 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
