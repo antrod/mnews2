@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mnews2 - Tech News Aggregator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .stories {
+            list-style: none;
+        }
+        
+        .story {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .story:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .story-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .story-title a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .story-title a:hover {
+            color: #667eea;
+        }
+        
+        .story-summary {
+            color: #666;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .badge-multi {
+            background: #667eea;
+            color: white;
+        }
+        
+        .badge-hn {
+            background: #ffeee5;
+            color: #ff6600;
+        }
+        
+        .badge-techmeme {
+            background: #e5f2ff;
+            color: #007aff;
+        }
+        
+        .badge-9to5mac {
+            background: #f3e5ff;
+            color: #9c27b0;
+        }
+        
+        .comments-link {
+            font-size: 0.9rem;
+            color: #666;
+            text-decoration: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: #f0f0f0;
+        }
+        
+        .comments-link:hover {
+            background: #e0e0e0;
+            color: #333;
+        }
+        
+        .fire {
+            color: #ff6b35;
+            margin-right: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .feed-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .feed-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .story {
+                padding: 15px;
+            }
+            
+            .story-title {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>mnews2</h1>
+            <p class="subtitle">Cross-platform tech news aggregator</p>
+        </header>
+        
+        <main>
+            <ul class="stories">
+                
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921">The oldest ice disappears and the Stone Age emerges from it</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.geekwire.com/2026/filing-chip-startup-powerlattice-raises-86m-to-ease-ais-power-crunch/">Filing: Vancouver, WA-based Powerlattice, which makes a power delivery chiplet to reduce AI compute power needs by 50%+, raised $86M, after raising $31M in 2025</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/29/apple-says-its-only-getting-started-updating-macos-for-touchscreens/">Apple says it’s ‘only getting started’ updating macOS for touchscreens</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (11)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://status.linode.com/incidents/nt58zhx3pmgm">Linode Security Incident</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.bloomberg.com/news/articles/2026-10-30/alphabet-is-in-talks-to-join-trump-s-golden-dome-defense-program?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MzM5Nzg1NywiZXhwIjoxNzk0MDAyNjU3LCJhcnRpY2xlSWQiOiJUTjYzVENUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJCRkI5RDA1ODU3NzI0QTVFQTU5ODA4NzhDRDQ4MjlEOCJ9.AnwrE7PoMJRZrargGvJB6fZIxMeCA5zjEWakYXiKN5o">Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/26/jay-z-confirmed-as-headliner-for-apple-musics-2027-super-bowl-halftime-show/">JAŸ-Z confirmed as headliner for Apple Music’s 2027 Super Bowl Halftime Show</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (12)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance">Blockchain intelligence firms link North Korea to $6.3B hack on Binance</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.bloomberg.com/news/articles/2026-10-30/baseten-set-for-30-billion-valuation-with-new-funding">Sources: Baseten is raising ~$2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-powered-by-m6/">Apple unveils new 14-inch MacBook Pro powered by M6</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (12)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://blog.flokinet.is/2026/10/29/ice-wants-its-mask-back-and-hired-a-company-to-ask/">ICE wants its mask back, and hired a company to ask</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+            </ul>
+        </main>
+        
+        <footer>
+            <p>Updated 10/31/2026, 1:20:47 PM</p>
+            <p><a href="/feed.xml" class="feed-link">RSS Feed</a></p>
+        </footer>
+    </div>
+</body>
+</html>

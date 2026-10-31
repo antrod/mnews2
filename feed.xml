@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 31 Oct 2026 13:20:47 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 31 Oct 2026 13:20:47 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The oldest ice disappears and the Stone Age emerges from it]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 172]]></description>
+            <link>https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921</link>
+            <guid isPermaLink="false">hackernews-39</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Filing: Vancouver, WA-based Powerlattice, which makes a power delivery chiplet to reduce AI compute power needs by 50%+, raised $86M, after raising $31M in 2025]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.geekwire.com/2026/filing-chip-startup-powerlattice-raises-86m-to-ease-ais-power-crunch/</link>
+            <guid isPermaLink="false">techmeme-20</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apple says it’s ‘only getting started’ updating macOS for touchscreens]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 11]]></description>
+            <link>https://9to5mac.com/2026/10/29/apple-says-its-only-getting-started-updating-macos-for-touchscreens/</link>
+            <guid isPermaLink="false">9to5mac-59</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Linode Security Incident]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 187]]></description>
+            <link>https://status.linode.com/incidents/nt58zhx3pmgm</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-10-30/alphabet-is-in-talks-to-join-trump-s-golden-dome-defense-program?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MzM5Nzg1NywiZXhwIjoxNzk0MDAyNjU3LCJhcnRpY2xlSWQiOiJUTjYzVENUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJCRkI5RDA1ODU3NzI0QTVFQTU5ODA4NzhDRDQ4MjlEOCJ9.AnwrE7PoMJRZrargGvJB6fZIxMeCA5zjEWakYXiKN5o</link>
+            <guid isPermaLink="false">techmeme-19</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[JAŸ-Z confirmed as headliner for Apple Music’s 2027 Super Bowl Halftime Show]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 12]]></description>
+            <link>https://9to5mac.com/2026/10/26/jay-z-confirmed-as-headliner-for-apple-musics-2027-super-bowl-halftime-show/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Blockchain intelligence firms link North Korea to $6.3B hack on Binance]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 193]]></description>
+            <link>https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: Baseten is raising ~$2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-10-30/baseten-set-for-30-billion-valuation-with-new-funding</link>
+            <guid isPermaLink="false">techmeme-18</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apple unveils new 14-inch MacBook Pro powered by M6]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 12]]></description>
+            <link>https://9to5mac.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-powered-by-m6/</link>
+            <guid isPermaLink="false">9to5mac-57</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ICE wants its mask back, and hired a company to ask]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 195]]></description>
+            <link>https://blog.flokinet.is/2026/10/29/ice-wants-its-mask-back-and-hired-a-company-to-ask/</link>
+            <guid isPermaLink="false">hackernews-36</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 31 Oct 2026 13:20:47 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
