@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 07 Nov 2026 15:27:01 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 07 Nov 2026 15:27:01 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[I toured Unitree's factory. I'm more bullish on the West]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 136]]></description>
+            <link>https://josef.cn/blog/unitree</link>
+            <guid isPermaLink="false">hackernews-40</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sources: The New York Times has entered exclusive negotiations to acquire Letterboxd for ~$330M; A24 dropped out of negotiations after price expectations rose]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.nytimes.com/2026/11/05/business/letterboxd-new-york-times-company.html?unlocked_article_code=1.OFE.VI2A.KUZeZMAjpE-e&amp;smid=url-share</link>
+            <guid isPermaLink="false">techmeme-20</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[With iOS 27.3, Apple will start checking iCloud public links for ‘harmful content’]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 7]]></description>
+            <link>https://9to5mac.com/2026/11/04/with-ios-27-3-apple-will-start-checking-icloud-public-links-for-harmful-content/</link>
+            <guid isPermaLink="false">9to5mac-60</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Restaurant Delivery Payment-Skimming Campaign]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 148]]></description>
+            <link>https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming</link>
+            <guid isPermaLink="false">hackernews-39</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cleanview: ~40% of pending US data center capacity is planned to be built in states where newly elected governors have pledged to stop or pause construction]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-06/new-governors-set-to-challenge-big-swath-of-data-center-capacity</link>
+            <guid isPermaLink="false">techmeme-19</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apple Wallet driver’s licenses coming to three new states soon]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 8]]></description>
+            <link>https://9to5mac.com/2026/11/03/apple-wallet-drivers-licenses-coming-to-three-new-states-soon/</link>
+            <guid isPermaLink="false">9to5mac-59</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[RealPage rent-pricing case wraps with nearly $360M to renters]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 148]]></description>
+            <link>https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The US DOJ indicts three foreign nationals for allegedly using AI to impersonate CEOs and attorneys at major international law firms in a $129M+ fraud scheme]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.nbcnews.com/news/us-news/3-foreign-nationals-allegedly-used-ai-mimic-ceos-129m-scheme-doj-says-rcna607818</link>
+            <guid isPermaLink="false">techmeme-18</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iOS 27.3 adds all-new Apple Health app, details here]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 8]]></description>
+            <link>https://9to5mac.com/2026/11/03/ios-27-3-adds-all-new-apple-health-app-details-here/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A barbarian tribe's mythic origin story is true, ancient DNA reveals]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 153]]></description>
+            <link>https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 07 Nov 2026 15:27:01 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
