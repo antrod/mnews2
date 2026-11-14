@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mnews2 - Tech News Aggregator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .stories {
+            list-style: none;
+        }
+        
+        .story {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .story:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .story-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .story-title a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .story-title a:hover {
+            color: #667eea;
+        }
+        
+        .story-summary {
+            color: #666;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .badge-multi {
+            background: #667eea;
+            color: white;
+        }
+        
+        .badge-hn {
+            background: #ffeee5;
+            color: #ff6600;
+        }
+        
+        .badge-techmeme {
+            background: #e5f2ff;
+            color: #007aff;
+        }
+        
+        .badge-9to5mac {
+            background: #f3e5ff;
+            color: #9c27b0;
+        }
+        
+        .comments-link {
+            font-size: 0.9rem;
+            color: #666;
+            text-decoration: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: #f0f0f0;
+        }
+        
+        .comments-link:hover {
+            background: #e0e0e0;
+            color: #333;
+        }
+        
+        .fire {
+            color: #ff6b35;
+            margin-right: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .feed-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .feed-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .story {
+                padding: 15px;
+            }
+            
+            .story-title {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>mnews2</h1>
+            <p class="subtitle">Cross-platform tech news aggregator</p>
+        </header>
+        
+        <main>
+            <ul class="stories">
+                
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026">Amtrak booking system experiencing major issues amid nationwide FAA ground stop</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.reuters.com/legal/litigation/free-speech-nonprofit-says-us-end-efforts-curb-facebook-group-app-reporting-ice-2026-11-14/">Free speech group FIRE says DOJ and DHS will end efforts to curb “ICE Sightings - Chicagoland” Facebook group and Eyes Up iOS app, which report on ICE activity</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/11/11/openais-personal-finance-features-for-chatgpt-expands-to-mac-app/">OpenAI’s personal finance features for ChatGPT expands to Mac app</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (6)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://dfarq.homeip.net/what-happened-to-3com/">What happened to 3Com?</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://asia.nikkei.com/business/business-deals/china-s-jd.com-completes-1.5bn-takeover-of-german-appliance-retailer">JD.com completes its takeover of German electronics retailer Ceconomy, after acquiring a ~60% stake for ~$1.5B, following the EU's approval of the deal</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/11/12/nvidia-ceo-jensen-huang-set-to-be-fired-with-johny-srouji-listed-among-possible-replacements/">Nvidia CEO Jensen Huang set to be fired, with Johny Srouji among possible replacements [U]</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (6)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://grounds.top/">Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://www.axios.com/pro/enterprise-software-deals/2026/11/12/luminal-inference-standard-software">Luminal, which provides an inference cloud and develops inference compiler software to test running AI models on different chips, raised a $25M Series A</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-techmeme">Techmeme</span>
+          
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://9to5mac.com/2026/11/13/new-apple-tv-4k-and-homeview-now-available-heres-everything-you-need-to-know/">New Apple TV 4K and HomeView now available: Here’s everything you need to know</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-9to5mac">9to5mac</span>
+          <span class="comments-link">Comments (6)</span>
+        </div>
+      </li>
+    
+      <li class="story">
+        <h2 class="story-title">
+          <a href="https://twitter.com/flightradar24/status/2121347654714077605">All US airports are currently ground stopped</a>
+        </h2>
+        <div class="story-meta">
+          <span class="badge badge-hn">Hackernews</span>
+          
+        </div>
+      </li>
+    
+            </ul>
+        </main>
+        
+        <footer>
+            <p>Updated 11/14/2026, 7:44:12 PM</p>
+            <p><a href="/feed.xml" class="feed-link">RSS Feed</a></p>
+        </footer>
+    </div>
+</body>
+</html>

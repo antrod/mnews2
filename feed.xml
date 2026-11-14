@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 14 Nov 2026 19:44:12 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Amtrak booking system experiencing major issues amid nationwide FAA ground stop]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 190]]></description>
+            <link>https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</link>
+            <guid isPermaLink="false">hackernews-40</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Free speech group FIRE says DOJ and DHS will end efforts to curb “ICE Sightings - Chicagoland” Facebook group and Eyes Up iOS app, which report on ICE activity]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.reuters.com/legal/litigation/free-speech-nonprofit-says-us-end-efforts-curb-facebook-group-app-reporting-ice-2026-11-14/</link>
+            <guid isPermaLink="false">techmeme-20</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI’s personal finance features for ChatGPT expands to Mac app]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 6]]></description>
+            <link>https://9to5mac.com/2026/11/11/openais-personal-finance-features-for-chatgpt-expands-to-mac-app/</link>
+            <guid isPermaLink="false">9to5mac-60</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What happened to 3Com?]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 198]]></description>
+            <link>https://dfarq.homeip.net/what-happened-to-3com/</link>
+            <guid isPermaLink="false">hackernews-39</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[JD.com completes its takeover of German electronics retailer Ceconomy, after acquiring a ~60% stake for ~$1.5B, following the EU's approval of the deal]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://asia.nikkei.com/business/business-deals/china-s-jd.com-completes-1.5bn-takeover-of-german-appliance-retailer</link>
+            <guid isPermaLink="false">techmeme-19</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nvidia CEO Jensen Huang set to be fired, with Johny Srouji among possible replacements [U]]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 6]]></description>
+            <link>https://9to5mac.com/2026/11/12/nvidia-ceo-jensen-huang-set-to-be-fired-with-johny-srouji-listed-among-possible-replacements/</link>
+            <guid isPermaLink="false">9to5mac-59</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 203]]></description>
+            <link>https://grounds.top/</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Luminal, which provides an inference cloud and develops inference compiler software to test running AI models on different chips, raised a $25M Series A]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://www.axios.com/pro/enterprise-software-deals/2026/11/12/luminal-inference-standard-software</link>
+            <guid isPermaLink="false">techmeme-18</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[New Apple TV 4K and HomeView now available: Here’s everything you need to know]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 6]]></description>
+            <link>https://9to5mac.com/2026/11/13/new-apple-tv-4k-and-homeview-now-available-heres-everything-you-need-to-know/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[All US airports are currently ground stopped]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 207]]></description>
+            <link>https://twitter.com/flightradar24/status/2121347654714077605</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 14 Nov 2026 19:44:12 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
