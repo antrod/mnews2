@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[mnews2 - Tech News Aggregator]]></title>
+        <description><![CDATA[Cross-platform tech news aggregator identifying trending stories across multiple sources]]></description>
+        <link>https://antrod.github.io/mnews2/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 21 Nov 2026 12:09:41 GMT</lastBuildDate>
+        <atom:link href="https://antrod.github.io/mnews2/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 21 Nov 2026 12:09:41 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Backblaze Notice at Collection and Privacy Policy]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 202]]></description>
+            <link>https://www.backblaze.com/company/policy/privacy</link>
+            <guid isPermaLink="false">hackernews-39</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Take-Two says GTA VI generated $3.79B in preorder and day-one sales, surpassing the $2.9B gross of the highest-grossing film Avengers: Endgame]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://mediagazer.com/#a261120p10</link>
+            <guid isPermaLink="false">techmeme-17</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Report: Apple job listings detail plans for autonomous AI agents]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 6]]></description>
+            <link>https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/</link>
+            <guid isPermaLink="false">9to5mac-59</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Re: Riemann]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 202]]></description>
+            <link>https://borretti.me/article/re-riemann</link>
+            <guid isPermaLink="false">hackernews-38</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dozens of CBS News employees have accepted buyout offers from parent company Skydance, significantly affecting the foreign desk led by Shayndi Raice]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://mediagazer.com/#a261120p13</link>
+            <guid isPermaLink="false">techmeme-16</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apple announces Black Friday deals on iPhone, iPad, Mac, and more]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 7]]></description>
+            <link>https://9to5mac.com/2026/11/19/apple-announces-black-friday-deals-on-iphone-ipad-mac-and-more/</link>
+            <guid isPermaLink="false">9to5mac-58</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DreamCoder: Coding harness and IDE from the author of Mastering Emacs]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 230]]></description>
+            <link>https://www.masteringemacs.org/article/announcing-dreamcoder</link>
+            <guid isPermaLink="false">hackernews-37</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Semafor paid $100K to Trump aide Jason Miller's firm Scipio in April; Semafor says it was for event booking consulting, which it does on both sides of the aisle]]></title>
+            <description><![CDATA[Source: techmeme]]></description>
+            <link>https://mediagazer.com/#a261120p8</link>
+            <guid isPermaLink="false">techmeme-15</guid>
+            <category><![CDATA[techmeme]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iOS 27 lets you use two iPhones with the same phone number]]></title>
+            <description><![CDATA[Source: 9to5mac<br/>Comments: 7]]></description>
+            <link>https://9to5mac.com/2026/11/20/ios-27-lets-you-use-two-iphones-with-the-same-phone-number/</link>
+            <guid isPermaLink="false">9to5mac-57</guid>
+            <category><![CDATA[9to5mac]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NINLIVE: The Nine Inch Nails live archive]]></title>
+            <description><![CDATA[Source: hackernews<br/>Points: 276]]></description>
+            <link>https://ninlive.com/</link>
+            <guid isPermaLink="false">hackernews-36</guid>
+            <category><![CDATA[hackernews]]></category>
+            <category><![CDATA[tech-news]]></category>
+            <pubDate>Sat, 21 Nov 2026 12:09:41 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
